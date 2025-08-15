@@ -1,6 +1,6 @@
 {
   "name": "iobroker.roborock",
-  "version": "0.6.19",
+  "version": "0.6.20",
   "description": "roborock",
   "author": {
     "name": "copystring",
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/copystring/ioBroker.roborock.git"
+    "url": "https://github.com/Paps2020/RoborockTestDev.git"
   },
   "engines": {
     "node": ">= 20"
@@ -88,7 +88,7 @@
     "release": "release-script"
   },
   "bugs": {
-    "url": "https://github.com/copystring/ioBroker.roborock/issues"
+    "url": "https://github.com/Paps2020/RoborockTestDev/issues"
   },
   "readmeFilename": "README.md"
 }
