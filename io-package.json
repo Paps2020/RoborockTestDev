@@ -1,0 +1,231 @@
+{
+  "common": {
+    "name": "roborock",
+    "version": "0.6.19",
+    "tier": 1,
+    "news": {
+      "0.6.19": {
+        "en": "Rewrite of mqtt connection logic\nAdd missing features to Qrevo Slim\nStart websocket & web server onReady\nUpdate LICENSE\nUpdate README.md",
+        "de": "Rewrite der mqtt-Verbindungslogik\nFügen Sie fehlende Funktionen zu Qrevo Slim hinzu\nStarten Sie Websocket & Webserver aufReady\nAktualisierung LICENSE\nUpdate README.md",
+        "ru": "Переписать логику связи mqtt\nДобавить недостающие функции в Qrevo Slim\nНачните веб-сервер наReady\nОбновление LICENSE\nОбновление README.md",
+        "pt": "Reescrever a lógica de conexão mqtt\nAdicionar recursos ausentes ao Qrevo Slim\nIniciar websocket & servidor web noReady\nAtualizar LICENSE\nAtualização README.md",
+        "nl": "Herschrijven van mqtt-verbindingslogica\nOntbrekende functies toevoegen aan Qrevo Slim\nStart websocket & webserver onReady\nLICENSE bijwerken\nREADME.md bijwerken",
+        "fr": "Réécriture de la logique de connexion mqtt\nAjouter des fonctionnalités manquantes à Qrevo Slim\nDémarrer websocket & serveur web surReady\nMettre à jour LICENSE\nMettre à jour README.md",
+        "it": "Riscrittura della logica di connessione di mqtt\nAggiungi le caratteristiche mancanti a Qrevo Slim\nAvviare websocket & web server suReady\nAggiornamento LICENSE\nAggiornamento README.md",
+        "es": "Reescribir la lógica de conexión mqtt\nAñadir características desaparecidas a Qrevo Slim\nInicio websocket & servidor web enReady\nActualización LICENSE\nActualizar README.md",
+        "pl": "Przepisz logikę połączenia mqtt\nDodaj brakujące funkcje do Qrevo Slim\nUruchom websocket i serwer WWW onReady\nAktualizacja LICENCJI\nAktualizacja README.md",
+        "uk": "Перезапис логіки з'єднання mqtt\nДодати відсутні функції до Qrevo Slim\nВеб-сервер наReady\nОновлення LICENSE\nОновлення README.md",
+        "zh-cn": "重写 mqtt 连接逻辑\n添加缺失的特性到 Qrevo Slim\n在 Ready 上启动 Websocket 服务器( W)\n更新自由度\n更新 README.md"
+      },
+      "0.6.18": {
+        "en": "Add cleaned_area to S8\nBugfixes for Qrevo Curve\nFix reset of consumables\nFix io-package.json\nAdd Roborock Qrevo Master\nRefactor login api and renew login every 3 hours\nFix unit of clean_percent\nAdd water box support to S6\nMany small fixed I can't be bothered to list 😅",
+        "de": "Gesäubert_area zu S8 hinzufügen\nBugfixes für Qrevo Curve\nReset von Verbrauchsmaterialien\nIo-package.json\nRoborock Qrevo Master hinzufügen\nRefactor login api und erneuern Login alle 3 Stunden\nFixeinheit von clean_percent\nWasserkastenunterstützung für S6 hinzufügen\nViele kleine fixierte ich kann nicht gestört werden, um 😅",
+        "ru": "Добавить очищенный_area в S8\nQrevo Curve\nИсправление расходуемых материалов\nFix io-package.json\nДобавить мастера Roborock Qrevo\nРефакторный логин api и обновляет логин каждые 3 часа\nFix unit of clean_percent\nДобавить поддержку водной коробки S6\nМного маленьких фиксированных я не могу быть потрудился перечислить 😅",
+        "pt": "Adicionar cleaned_area a S8\nBugfixs para a curva Qrevo\nFix reset de consumíveis\nFix io-package.json\nAdicionar Roborock Qrevo Master\nRefactor login api e renovar login a cada 3 horas\nFix unidade de clean_percent\nAdicionar suporte de caixa de água para S6\nMuitos pequenos fixos não posso ser incomodado para listar  to",
+        "nl": "_Geschoond gebied toevoegen aan S8\nBugfixes voor Qrevo-curve\nReset van verbruiksartikelen herstellen\nFix io-package.json\nRoborock Qrevo Meester toevoegen\nRefactor login api en vernieuwen login elke 3 uur\nRepareren eenheid van clean_percent\nWaterbakondersteuning toevoegen aan S6\nVeel kleine vaste ik kan niet worden lastig gemaakt om lijst",
+        "fr": "Ajouter la zone nettoyée à S8\nBugfixes pour la courbe Qrevo\nCorrection de la remise des consommables\nRéparez io-package.json\nAjouter Roborock Qrevo Master\nRefactor login api et renouveler la connexion toutes les 3 heures\nCorrection de l'unité de pourcentage propre\nAjouter le support de boîte à eau à S6\nBeaucoup de petits fixes Je ne peux pas être dérangé pour lister",
+        "it": "Aggiungi clean_area a S8\nBugfixs per la curva di Qrevo\nRipristino dei materiali di consumo\nFissare io-package.json\nAggiungi Roborock Qrevo Master\nRefactor login api e rinnovare il login ogni 3 ore\nUnità di fissaggio di clean_percent\nAggiungi supporto scatola acqua a S6\nMolti piccoli fissi non posso essere disturbato a elencare 😅",
+        "es": "Añadir cleaned_area a S8\nBugfixes para Qrevo Curve\nFijación de los bienes fungibles\nFijar io-paquete.json\nAñadir Roborock Qrevo Master\nRefactor login api y renovar login cada 3 horas\nUnidad de fijación limpia_porcent\nAñadir soporte de caja de agua a S6\nMuchos pequeños fijos no puedo ser molestado en la lista 😅",
+        "pl": "Dodaj oczyszczoną powierzchnię do S8\nPoprawki dla krzywej Qrevo\nNapraw resetowanie materiałów eksploatacyjnych\nNapraw jo- package.json\nDodaj Robolock Qrevo Master\nRefaktor logowania api i odnowić logowanie co 3 godziny\nNapraw jednostkę czystego _%\nDodaj obsługę skrzynki wodnej do S6\nWiele małych naprawionych nie mogę być kłopotliwy, aby wykaz",
+        "uk": "Додати cleaned_area до S8\nВиправлення помилок для Qrevo Curve\nВиправлення скидання витратних матеріалів\nEnglish, Українська, Français..\nДодати майстер Roborock Qrevo\nРефакторний логін Api і новий логін кожні 3 години\nФіксований блок чистоти\nДодавання підтримки водяної коробки до S6\nБагато малий фіксований я не можу бути якірований до списку 😅",
+        "zh-cn": "将清除的区域添加到 S8\nQurevo 曲线的错误修正\n更换消耗品\n修复 io- package.json\n添加 Roborock Qurevo 主控器\n每3小时重置登录 api 并更新登录\n清洁单位% (%)\n向 S6 添加水箱支持\n很多小的修补,我不用再提了"
+      },
+      "0.6.17": {
+        "en": "Add some missing attributes\nChange min of update interval to 60s to prevent issues\nAdd web interface to sidebar",
+        "de": "Einige fehlende Attribute hinzufügen\nÄnderung min von Update-Intervall auf 60s, um Probleme zu verhindern\nWeb-Schnittstelle zu Sidebar hinzufügen",
+        "ru": "Добавить недостающие атрибуты\nИзменение интервала обновления до 60-х, чтобы предотвратить проблемы\nДобавить веб-интерфейс на боковой панели",
+        "pt": "Adicione alguns atributos ausentes\nAlterar min de intervalo de atualização para 60s para evitar problemas\nAdicionar interface web à barra lateral",
+        "nl": "Enkele ontbrekende attributen toevoegen\nVerander min van update interval naar 60s om problemen te voorkomen\nWebinterface toevoegen aan zijbalk",
+        "fr": "Ajouter quelques attributs manquants\nChanger l'intervalle min de mise à jour en 60s pour prévenir les problèmes\nAjouter une interface web à la barre latérale",
+        "it": "Aggiungere alcuni attributi mancanti\nCambia min di intervallo di aggiornamento a 60s per evitare problemi\nAggiungere l'interfaccia web alla barra laterale",
+        "es": "Añadir algunos atributos perdidos\nCambio min de intervalo de actualización a 60s para evitar problemas\nAñadir interfaz web a la barra lateral",
+        "pl": "Dodaj brakujące atrybuty\nZmień min interwał aktualizacji do 60, aby zapobiec problemom\nDodaj interfejs WWW do paska bocznego",
+        "uk": "Додати деякі відсутні атрибути\nЗміна інтервалу оновлення до 60-х\nДодати веб-інтерфейс на бічну панель",
+        "zh-cn": "添加一些缺失属性\n将更新间隔分钟改为60秒,以防止出现问题\n向侧边栏添加网页接口"
+      },
+      "0.6.16": {
+        "en": "Bugfixes\nupdate test-and-release.yml\nFix S6 feature detection\nMigrate from canvas to @napu-rs/canvas\nAdd Qrevo S & Qrevo Curve",
+        "de": "Bugfixes\nupdate test-and-release.yml\nFix S6 Funktion Erkennung\nVon Leinwand zu @napu-rs/canvas migrieren\nQrevo S & Qrevo Kurve",
+        "ru": "Bugfixs\nобновление test-and-release.yml\nФикс S6\nMigrate from canvas to @napu-rs/canvas\nДобавить Qrevo S & Qrevo Куры",
+        "pt": "Bugfixs\natualizar test-and-release.yml\nCorrigir detecção de recursos S6\nMigrar de tela para @napu-rs/canvas\nAdicionar Qrevo S & Qrevo Curve",
+        "nl": "Bugfixes\nupdate test-and-release.yml\nFix S6-functiedetectie\nMigreren van doek naar @napu-rs/canvas\nQrevo S & Qrevo toevoegen Curve",
+        "fr": "Fixes de bogue\nmettre à jour test-and-release.yml\nCorrection de la détection des fonctionnalités S6\nMigrer de la toile à @napu-rs/canvas\nAjouter Qrevo S & Qrevo Courbe",
+        "it": "Bugfix\naggiornamento test-and-release.yml\nRilevamento della funzione Fix S6\nMigrare da tela a @napu-rs/canvas\nAggiungi Qrevo S & Qrevo Curva",
+        "es": "Bugfixes\nactualizar test-and-release.yml\nDetección de funciones S6\nMigrar de lienzo a @napu-rs/canvas\nAñadir Qrevo S ' Qrevo Curva",
+        "pl": "Korekty błędów\nupdate test- and- releasase.yml\nNapraw wykrywanie funkcji S6\nMigracja z płótna na @ napu- rs / płótno\nDodaj Qrevo S & Qrevo Krzywa",
+        "uk": "Помилки\njavascript licenses api веб-сайт go1.13.8\nВизначення функції S6\nМіграція з полотна до @napu-rs/canvas\nДодати Qrevo S & Qrevo Проксимус",
+        "zh-cn": "错误修正\n更新测试和释放.yml\n修复 S6 特性检测\n从帆布迁移到 @napu-rs/canvas\n添加 Qrevo S & Qrevo 曲线"
+      },
+      "0.6.15": {
+        "en": "Refactor some code\nimprove handling of online/offline detection and related logging\nS6 MaxV supports avoid carpet",
+        "de": "Refactor einige Code\nverbesserung des umgangs mit online/offline-erkennung und verwandter protokollierung\nS6 MaxV-Träger vermeiden Teppich",
+        "ru": "Рефакторировать код\nулучшение работы с онлайн/оффлайн-обнаружением и смежными лесозаготовками\nS6 MaxV поддерживает избегание ковра",
+        "pt": "Refactor algum código\nmelhorar o manuseio de detecção on-line/offline e registro relacionado\nSuportes S6 MaxV evitar tapete",
+        "nl": "Code refactoreren\nverbeteren van de omgang met online/offline detectie en aanverwante logging\nS6 MaxV ondersteunt vermijden tapijt",
+        "fr": "Refactorer un code\naméliorer la gestion de la détection en ligne/hors ligne et l'enregistrement connexe\nSupports S6 MaxV pour éviter le tapis",
+        "it": "Refactor alcuni codici\nmigliorare la gestione del rilevamento online/offline e relativi logging\nI supporti S6 MaxV evitano il tappeto",
+        "es": "Refactor algún código\nmejorar el manejo de la detección en línea/offline y registro conexo\nS6 MaxV admite evitar la alfombra",
+        "pl": "Zmień kod\npoprawa obsługi wykrywania online / offline i związanego z tym wyrębu\nS6 MaxV obsługuje unikać dywanu",
+        "uk": "Рефактор коду\nпокращити роботу онлайн / в автономному режимі виявлення та пов'язаних з реєстрацією\nS6 MaxV підтримує ковролін",
+        "zh-cn": "重构一些代码\n改进在线/离线检测和相关记录的处理\nS6 最大V 支持避免地毯"
+      },
+      "0.6.14": {
+        "en": "Fix bug in app_goto_target parameter validation",
+        "de": "Fehler in der Parametervalidierung von app_goto_target beheben",
+        "ru": "Исправление ошибки в проверке параметров приложения_goto_target",
+        "pt": "Corrigir bug na validação do parâmetro app_goto_target",
+        "nl": "Fix bug in app_goto_target parameter validatie",
+        "fr": "Correction du bug dans la validation des paramètres app_goto_cible",
+        "it": "Fissa bug nella validazione dei parametri app_goto_target",
+        "es": "Corregir error en validación del parámetro app_goto_target",
+        "pl": "Popraw błąd w walidacji parametru app _ goto _ target",
+        "uk": "Виправлення помилок у валідації параметра app_goto_target",
+        "zh-cn": "在 app_goto_目标参数验证中修复错误"
+      },
+      "0.6.13": {
+        "en": "Bug fixes\nAdd basic support for S8 MaxV Ultra\nNewly found attributes are now warning instead of error\nImprove detection of `home_sec`\nFix docking station detection\nBREAKING: Adjust docking station states to reflect the smart phone app\nDetect remote devices and connect via mqtt instead\nImprove docking station feature handling",
+        "de": "Fehlerbehebungen\nGrundunterstützung für S8 MaxV hinzufügen Ultra\nNeu gefundene Attribute sind jetzt Warnung statt Fehler\nErkennung von `home_sec verbessern `\nErkennung der Andockstation\nBREAKING: Anpassen der Docking Station Zustände, um die Smartphone-App zu reflektieren\nRemote-Geräte erkennen und über mqt anschließen\nVerbessern Sie die Funktion der Docking Station",
+        "ru": "Запястья\nДобавить базовую поддержку S8 MaxV Ультра\nНедавно найденные атрибуты теперь предупреждают, а не ошибаются\nУлучшить обнаружение `home_sec \"\nОбнаружение док-станций\nНастройка состояния док-станции для отражения приложения смарт-телефон\nОтобразить удаленные устройства и подключиться через mqtt\nУлучшить обработку док-станций",
+        "pt": "Correções de bugs\nAdicionar suporte básico para S8 MaxV Ultra Ultra Ultra Ultra\nOs atributos recém-chegados estão agora alertando em vez de erro\nMelhorar a detecção de `home_sec \"\nCorrigir detecção de estação de ancoragem\nBREAKING: Ajustar a estação de ancoragem afirma refletir o aplicativo de telefone inteligente\nDetectar dispositivos remotos e conectar via mqtt em vez\nMelhorar o manuseio de recursos da estação de ancoragem",
+        "nl": "Bugfixes\nBasisondersteuning voor S8 MaxV toevoegen Ultra\nNieuw gevonden attributen zijn nu waarschuwing in plaats van fout\nVerbeteren van detectie van \"home_sec\" Wat\nFix docking station detectie\nBREAKING: Aanpassen docking station staten om de smartphone app weer te geven\nDetecteer externe apparaten en verbind via mqtt in plaats daarvan\nVerbetering docking station functie behandeling",
+        "fr": "Corrections des bogues\nAjouter le support de base pour S8 MaxV Ultra\nLes attributs nouvellement trouvés sont maintenant avertis au lieu d'erreur\nAméliorer la détection de `home_sec \"\nCorrection de la détection des stations d'amarrage\nBREAKING: Réglez les états de station d'accueil pour refléter l'application de téléphone intelligent\nDétecter les périphériques distants et se connecter via mqtt à la place\nAméliorer la gestion des fonctionnalités de la station d'amarrage",
+        "it": "Correzioni di bug\nAggiungi supporto di base per S8 MaxV Ultra\nGli attributi appena trovati ora avvertono invece di errore\nMigliorare il rilevamento di `home_sec #\nRilevamento della stazione di docking\nBREAKING: Regolare gli stati di docking station per riflettere l'app smart phone\nRilevare dispositivi remoti e collegare tramite mqtt\nMigliorare la gestione delle funzioni docking station",
+        "es": "Corrección de errores\nAñadir soporte básico para S8 MaxV Ultra\nLos atributos recién encontrados son ahora advertencia en lugar de error\nMejorar la detección de `home_sec `\nDetección de estación de acoplamiento fijo\nBREAKING: Ajuste los estados de la estación de acoplamiento para reflejar la aplicación de teléfono inteligente\nDetectar dispositivos remotos y conectar a través de mqtt\nMejorar la función de estación de docking",
+        "pl": "Poprawki błędów\nDodaj podstawowe wsparcie dla S8 MaxV Ultra\nNowo znalezione atrybuty są teraz ostrzeganie zamiast błędu\nPoprawa wykrywania \"home _ sec '\nNapraw wykrywanie stacji dokującej\nBREAKING: Dostosowanie stacji dokującej stan odzwierciedlać aplikacji smartphone\nWykrywanie zdalnych urządzeń i łączenie za pośrednictwem mqtt\nPoprawa obsługi funkcji stacji dokującej",
+        "uk": "Виправлення помилок\nДодати базову підтримку S8 MaxV Ультра\nНові знайдені атрибути тепер попереджають замість помилки\nПокращення виявлення `home_sec й\nФіксація док-станція\nBREAKING: Регульувати стани докінгу для відображення смартфона\nВиявлення віддалених пристроїв та підключення через mqtt замість\nПокращити роботу док-станція",
+        "zh-cn": "错误修正\n为 S8 MaxV 添加基本支持 超强\n新找到的属性现在是警告而不是错误\n改进对“家园”的检测 `\n固定对接站检测\n调整对接站状态以反映智能手机应用\n检测远程设备并通过 mqtt 连接\n改进对接站功能处理"
+      }
+    },
+    "titleLang": {
+      "en": "Roborock",
+      "de": "Roborock",
+      "ru": "Роборок",
+      "pt": "Roborock",
+      "nl": "Roborock",
+      "fr": "Roborock",
+      "it": "Roborock",
+      "es": "roborock",
+      "pl": "Roborock",
+      "uk": "Роборок",
+      "zh-cn": "石头"
+    },
+    "desc": {
+      "en": "roborock",
+      "de": "Roborock",
+      "ru": "роборок",
+      "pt": "roborock",
+      "nl": "roborock",
+      "fr": "roborock",
+      "it": "Roborock",
+      "es": "roborock",
+      "pl": "roborock",
+      "uk": "Роборок",
+      "zh-cn": "机器人摇滚"
+    },
+    "authors": [
+      "copystring <copystring@gmail.com>"
+    ],
+    "keywords": [
+      "roborock",
+      "template",
+      "home automation"
+    ],
+    "licenseInformation": {
+      "license": "MIT",
+      "type": "free",
+      "link": "https://github.com/copystring/ioBroker.roborock/blob/main/README.md"
+    },
+    "platform": "Javascript/Node.js",
+    "icon": "roborock.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/copystring/ioBroker.roborock/main/admin/roborock.png",
+    "readme": "https://github.com/copystring/ioBroker.roborock/blob/main/README.md",
+    "loglevel": "info",
+    "mode": "daemon",
+    "type": "household",
+    "compact": true,
+    "connectionType": "cloud",
+    "dataSource": "poll",
+    "adminUI": {
+      "config": "json",
+      "tab": "html"
+    },
+    "adminTab": {
+      "name": {
+        "en": "Roborock",
+        "de": "Roborock",
+        "ru": "Roborock",
+        "pt": "Roborock",
+        "nl": "Roborock",
+        "fr": "Roborock",
+        "it": "Roborock",
+        "es": "Roborock",
+        "pl": "Roborock",
+        "zh-cn": "Roborock"
+      },
+      "link": "%web_protocol%://%ip%:%webserverPort%/map.html",
+      "fa-icon": "</i><img style='width:24px;margin-bottom:-6px;' src='/adapter/admin/roborock.png'><i>"
+    },
+    "localLinks": {
+      "_default": "%web_protocol%://%ip%:%webserverPort%/map.html"
+    },
+    "dependencies": [
+      {
+        "js-controller": ">=5.0.19"
+      }
+    ],
+    "globalDependencies": [
+      {
+        "admin": ">=5.1.13"
+      }
+    ],
+    "plugins": {
+      "sentry": {
+        "dsn": "https://40474f3cac0c421c85afce616de6ec2d@o4504748727664640.ingest.sentry.io/4504748727664640"
+      }
+    }
+  },
+  "encryptedNative": [
+    "username",
+    "password"
+  ],
+  "protectedNative": [
+    "username",
+    "password"
+  ],
+  "native": {
+    "username": "",
+    "password": "",
+    "enable_map_creation": false,
+    "map_creation_interval": 2,
+    "map_scale": 2,
+    "updateInterval": 60,
+    "webserverPort": 6824,
+    "hostname_ip": "iobroker",
+    "cameraPin": 1234
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "info",
+      "type": "channel",
+      "common": {
+        "name": "Information"
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "role": "indicator.connected",
+        "name": "Device or service connected",
+        "type": "boolean",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    }
+  ]
+}
